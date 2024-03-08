@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portfólio Fictício</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f8f9fa;
+        color: #333;
+        line-height: 1.6;
+      }
+      .navbar {
+        background-color: #292e49 !important;
+        padding: 1rem 0;
+      }
+      .navbar-brand,
+      .nav-link {
+        color: #fff !important;
+        font-weight: bold;
+      }
+      .jumbotron {
+        background-image: linear-gradient(to right bottom, #536976, #292e49);
+        color: #fff;
+        padding: 100px 0;
+        margin-bottom: 0;
+      }
+      .jumbotron h1 {
+        font-size: 4rem;
+        font-weight: bold;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+      .jumbotron p {
+        font-size: 1.5rem;
+      }
+      .portfolio-item,
+      .contact-section {
+        padding: 2em 3em;
+        position: relative;
+      }
+      .portfolio-item h2,
+      .contact-section h2 {
+        color: #292e49;
+        font-weight: bold;
+        margin-bottom: 40px;
+      }
+      .portfolio-item p {
+        font-size: 1.1rem;
+      }
+      .footer {
+        background-color: #292e49;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+      }
+      .card {
+        border: none;
+        transition: transform 0.3s;
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      }
+      .card:hover {
+        transform: translateY(-10px);
+      }
+      .form-group label {
+        font-weight: bold;
+      }
+      .form-control {
+        border-radius: 15px;
+        border-color: #292e49;
+      }
+      .btn-primary {
+        background-color: #292e49;
+        border: none;
+        border-radius: 15px;
+        font-weight: bold;
+      }
+      .btn-primary:hover {
+        background-color: #536976;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Meu Portfólio</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="jumbotron text-center">
+        <h1 class="display-3">Meu Portfólio Fictício</h1>
+        <p class="lead">
+          Bem-vindo! Aqui você encontra os projetos fictícios que desenvolvi.
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <section id="sobre" class="portfolio-item">
+        <h2 class="text-center mb-5">Sobre</h2>
+        <article>
+          <p>
+            Sou um estudante entusiasta de Ciência da Computação, com uma
+            profunda paixão pelo desenvolvimento web e design. Estou imerso
+            neste fascinante mundo da tecnologia, constantemente buscando novos
+            desafios e oportunidades para expandir meus conhecimentos e
+            habilidades.
+          </p>
+          <p>
+            Desde o início da minha jornada acadêmica, fui cativado pela
+            infinita criatividade e potencial transformador que o
+            desenvolvimento web e design oferecem. Cada linha de código que
+            escrevo e cada pixel que ajusto são oportunidades para expressar
+            minha visão e criatividade, enquanto busco criar experiências
+            digitais envolventes e significativas.
+          </p>
+          <p>
+            Além de me dedicar aos estudos formais, estou sempre explorando
+            novas tecnologias, frameworks e ferramentas, ávido por aprender as
+            últimas tendências e melhores práticas da indústria. A velocidade
+            com que a tecnologia evolui é verdadeiramente inspiradora, e estou
+            determinado a acompanhar esse ritmo, sempre buscando aprimorar
+            minhas habilidades para enfrentar os desafios do amanhã.
+          </p>
+          <p>
+            Através de projetos pessoais, desafios de programação e colaborações
+            com colegas, tenho a oportunidade de aplicar meu conhecimento
+            teórico em contextos do mundo real, desenvolvendo soluções
+            inovadoras e refinando minhas habilidades técnicas e de resolução de
+            problemas.
+          </p>
+          <p>
+            Acredito que o desenvolvimento web e design não se trata apenas de
+            criar sites bonitos, mas sim de criar experiências que impactem
+            positivamente a vida das pessoas. É por isso que estou comprometido
+            não apenas em dominar as técnicas e ferramentas necessárias, mas
+            também em cultivar uma abordagem centrada no usuário e uma
+            sensibilidade estética, para criar produtos digitais verdadeiramente
+            excepcionais.
+          </p>
+          <p>
+            Estou animado com as oportunidades que o futuro reserva nesta área
+            dinâmica e desafiadora, e estou ansioso para continuar minha jornada
+            de aprendizado e crescimento, contribuindo para a construção de um
+            mundo digital mais bonito, funcional e inclusivo.
+          </p>
+        </article>
+      </section>
+
+      <section id="portfolio" class="portfolio-item">
+        <h2 class="text-center mb-5">Portfolio</h2>
+        <div class="row">
+          <figure class="col-md-4">
+            <img
+              src="https://via.placeholder.com/300"
+              class="card-img-top"
+              alt="Projeto 1"
+            />
+            <figcaption class="card-body">
+              <h5 class="card-title">Projeto 1</h5>
+              <p class="card-text">
+                Descrição do Projeto 1. Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit.
+              </p>
+            </figcaption>
+          </figure>
+          <figure class="col-md-4">
+            <img
+              src="https://via.placeholder.com/300"
+              class="card-img-top"
+              alt="Projeto 2"
+            />
+            <figcaption class="card-body">
+              <h5 class="card-title">Projeto 2</h5>
+              <p class="card-text">
+                Descrição do Projeto 2. Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit.
+              </p>
+            </figcaption>
+          </figure>
+          <figure class="col-md-4">
+            <img
+              src="https://via.placeholder.com/300"
+              class="card-img-top"
+              alt="Projeto 3"
+            />
+            <figcaption class="card-body">
+              <h5 class="card-title">Projeto 3</h5>
+              <p class="card-text">
+                Descrição do Projeto 3. Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="contato" class="contact-section">
+        <h2 class="text-center mb-5">Entre em Contato</h2>
+        <form class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="nome">Nome</label>
+              <input
+                type="text"
+                class="form-control"
+                id="nome"
+                placeholder="Seu nome"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Seu email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="mensagem">Mensagem</label>
+              <textarea
+                class="form-control"
+                id="mensagem"
+                rows="5"
+                placeholder="Sua mensagem"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 Meu Portfólio Fictício</p>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
